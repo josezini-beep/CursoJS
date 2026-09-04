@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Aula 9 </h1>
-<div id="area" onclick="clicar()" onmouseenter="entrou" onmouseout="saiu">
+<div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
     interaja...
 </div>
     <script>
@@ -19,10 +19,12 @@
         function entrou(){
             var area = window.document.getElementById('area')
             area.innerText = 'entrou'
+            area.style.background = 'green'
         }
         function saiu(){
             var area = window.document.getElementById('area')
             area.innerText = 'saiu'
+            area.style.background = 'red'
         }
         </script>
 
