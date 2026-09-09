@@ -21,3 +21,9 @@ footer{
     text-align: center;
     font-style: italic;
 }
+#img {
+    border-radius: 50%; /* Torna a imagem perfeitamente circular */
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Garante que a foto não fique esticada */
+}

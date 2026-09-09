@@ -22,8 +22,4 @@ if (hora >=6 && hora <12){
     document.body.style.background = '#020241'
     msg2.innerHTML = "Boa madrugada"
 }
-
-var img = window.document.getElementById('img')
-img.style.width = '250px'
-img.style.height = '250px'
 }
