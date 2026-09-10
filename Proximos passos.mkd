@@ -1,0 +1,21 @@
+# proximos passos
+
+## Fazer html 5 e css
+
+## Estudar functions
+
+## Objetos
+---
+### Oque é?
+
+### No que é útil?
+
+## Modularização
+
+## Epressões regulares
+
+## Jon
+
+## Aax
+
+## Nodejs
