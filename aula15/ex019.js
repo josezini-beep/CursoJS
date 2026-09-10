@@ -1,5 +1,6 @@
 let car=[1,2,3]
-car.push(1)
+car[3]=4
+car.push(5)
 car.sort()
 console.log(`[ ${car}] \nNosso vetor é ${car} e tem ${car.length} caracteres`)
 
