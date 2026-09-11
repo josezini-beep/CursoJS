@@ -1,4 +1,4 @@
-nome,email,cidade
+nome,email,cidade, profissao, idade
 Ana,ana@email.com,Maringá
 Carlos,carlos@email.com,Londrina
 Pedro,pedro@email.com,Curitiba
