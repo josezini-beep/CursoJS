@@ -21,7 +21,7 @@ for (const linha of linhas) {
               }
            }
         }
-    }
+      }
   }
 const textoFinal = resultado.join("\n");
 
