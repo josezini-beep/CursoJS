@@ -1,14 +1,11 @@
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
- if (distanceToPump/fuelLeft<=mpg) {
-  return true
- }else{
-  return false 
+function hero(bullets, dragons){
+  return bullets >= dragons * 2 
 }
-};
 
-/*Você estava acampando com seus amigos longe de casa, mas quando chegou a hora de voltar, percebeu que seu combustível estava acabando e o posto de gasolina mais próximo ficava 50a quilômetros de distância! Você sabe que, em média, seu carro faz cerca de [número] 25quilômetros por litro. Ainda restam [número] 2litros.
 
-Considerando esses fatores, escreva uma função que indique se é possível chegar à bomba ou não.
+/*Um herói está a caminho do castelo para completar sua missão. No entanto, ele foi informado de que o castelo está cercado por alguns dragões poderosos! Cada dragão precisa de 2 balas para ser derrotado, e nosso herói não tem ideia de quantas balas deve levar. Supondo que ele pegue uma quantidade específica de balas e siga em frente para lutar contra outra quantidade específica de dragões, será que ele sobreviverá?
 
-A função deve retornar truese for possível e, falsecaso contrário, deve ser negada.
+Retorne verdadeiro se sim, falso caso contrário :)
+
+
 */
